@@ -46,7 +46,7 @@ This script is from Jason Ladner.  Check out his github [page](https://github.co
 
 Hold on to your hats, folks.  This script has a lot of moving parts.  The original geographic spread script was made by Gytis Dudas and can be found [here](https://github.com/evogytis/baltic/blob/master/curonia.ipynb).  Kudos to him for this excellent piece of work!  This script was used to make the really cool Ebola virus spread video found [here](https://www.youtube.com/watch?v=j4Ut4krp8GQ).
 
-My final plotting ipython notebook can be found [here](/curonia_nipah_V1.p)
+My final plotting ipython notebook can be found [here](/curonia_nipah_V1.ipynb)
 
 I had to break the curionia script down into several steps to understand and get the program working:
 
