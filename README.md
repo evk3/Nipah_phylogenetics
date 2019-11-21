@@ -1846,13 +1846,14 @@ plt.show()
 ```
 
 ###### 9. Convert individual png images into a movie:
+```
 %%bash
 
 frames=/scicomp/home/evk3/Diagnostics/Nipah/GLM_2018/alignment_without_mojiang_cedar_bat/bang_geo_only/animate_tree_V2/
 ffmpeg_path=/scicomp/home/evk3/setup/ffmpeg-4.1
 
 cd  $frames; $ffmpeg_path/ffmpeg -framerate 2 -start_number 0 -i ani_frame_%05d.png -pix_fmt yuv420p -b:a 64k -vf scale="2160:trunc(ow/a/2)*2" nipah_25Apr2019_animation.HD.264.mp4
-
+```
 
 
 
