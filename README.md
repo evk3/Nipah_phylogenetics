@@ -17,7 +17,7 @@ python python_multi_seq_fasta_test_hybrid_oligos_V2.py > enrichment_probes.txt
 
 ## Enrichment probes used in "Inference of Nipah virus Evolution, 1999-2015"
 
-File containing probe sequences can be found [here](/Nipah_oligos.xls)
+File containing probe sequences can be found [here](/Nipah_oligos.xls).
 Probes can be purchase from [Twist Biosciences](https://twistbioscience.com).  Please note that probes need to be 5' biotinylated.
 
 My last conversation with the folks at Twist Biosciences indicated that they could make approximately 6,500 probes at a total probe concentration of 30ug.
