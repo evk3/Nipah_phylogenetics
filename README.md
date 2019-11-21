@@ -36,7 +36,7 @@ sh array_script_NEBNext_V1.sh
 This script was originally from from Jason [Ladner](https://github.com/jtladner/Scripts/blob/master/strand_specific_coverage/strandspec_covplot/strandspec_covplot_v1.1.py), but I made some edits and used this [verison](/strandspec_covplot_v1.2.py).  
 
 Usage:
-Please see Jason' [readme](https://github.com/jtladner/Scripts/tree/master/strand_specific_coverage/strandspec_covplot).  The usage is the same.
+Please see Jason's [readme](https://github.com/jtladner/Scripts/tree/master/strand_specific_coverage/strandspec_covplot).  The usage is the same.
 
 ## Chimeric Reads
 
