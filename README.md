@@ -58,7 +58,7 @@ Link to raw variant data found [here](/Minor_variants_reviewers_8_to_share.xlsx)
 
 ## Visualizing Geographic Spread from a BEAST Continuous Diffusion Analysis
 
-Hold on to your hats, folks.  This script has a lot of moving parts.  The original geographic spread script was made by Gytis Dudas and can be found [here](https://github.com/evogytis/baltic/blob/master/curonia.ipynb).  Kudos to him for this excellent piece of work!  This script was used to make the really cool Ebola virus spread video found [here](https://www.youtube.com/watch?v=j4Ut4krp8GQ).
+Hold on to your hats, folks.  This script has a lot of moving parts.  The original geographic spread script was made by Gytis Dudas and can be found [here](https://github.com/evogytis/baltic/blob/master/curonia.ipynb) and [here](https://github.com/ebov/space-time/blob/master/Scripts/notebooks/EBOV_phylogeography_animation.ipynb).  Kudos to him for this excellent piece of work!  This script was used to make the really cool Ebola virus spread video found [here](https://www.youtube.com/watch?v=j4Ut4krp8GQ).
 
 My final plotting ipython notebook can be found [here](/curonia_nipah_V1.ipynb)
 
