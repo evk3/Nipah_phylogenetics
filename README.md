@@ -42,6 +42,20 @@ Please see Jason's [readme](https://github.com/jtladner/Scripts/tree/master/stra
 
 This script is from Jason Ladner.  Check out his github [page](https://github.com/jtladner/Scripts/tree/master/chimeric_reads) for original [script](https://github.com/jtladner/Scripts/blob/master/chimeric_reads/chimeric_reads_v3.6.2.py).
 
+## Genome Coverage Plots and SNP Plots
+
+A question was raised during review of the manuscript as to whether the use of enrichment probes biased the enriched reads.  We directly tested this by sequencing a paired subset of our viral isolates using enrichment and non-enrichment based methods.
+
+![Supplementary_FigureX1](/Supplementary_FigureX1_V1_crop_flat?raw=true "Title")
+
+<b>Supplementary Figure X1:</b>  Read coverage and minor variant plots for paired Nipah virus isolates sequenced using enrichment-based and non-enrichment based NGS methods.  <b>A)</b> Read coverage plots for a subset of paired viral isolates sequenced using enrichment-based and non-enrichment based NGS methods.  Plots show mean coverage versus genome position (bp) and loess-smoothed coverage estimates (dark, solid line).  <b>B)</b> Minor variant frequency versus genome position.  Subplots on y- and x-axes indicate density of minor variant locations across the genome and minor variant frequencies. 
+
+![Supplementary_FigureX2](/Supplementary_FigureX2_V1_crop_flat?raw=true "Title")
+
+<b>Supplementary Figure X2:</b> Read coverage and minor variant plots for all new genomes sequenced using enrichment and non-enrichment based NGS methods, similar to Supplementary Figure X1.  <b>A)</b> Read coverage plots.  Plots show mean coverage versus genome position (bp) and loess-smoothed coverage estimates (dark, solid line).  <b>B)</b> Minor variant frequency versus genome position.  Subplots on y- and x-axes indicate density of minor variant locations across the genome and minor variant frequencies.   <b>C)</b> Minor frequency versus genome position.  Points are colored according to specimen number.  Left – minor variants for all new genomes.  Right – minor variants for all new genomes with variants for specimen 201206119 removed.
+
+Link to raw variant data found [here](/test).  Please note that genomes were aligned to maintain position consistency.  Position #1 corresponds to base #1 in JN808863.  At base 6558 there is a 0, 6, or 12 bp gap in the alignment.  All bases are re-aligned at base 6570.
+
 ## Visualizing Geographic Spread from a BEAST Continuous Diffusion Analysis
 
 Hold on to your hats, folks.  This script has a lot of moving parts.  The original geographic spread script was made by Gytis Dudas and can be found [here](https://github.com/evogytis/baltic/blob/master/curonia.ipynb).  Kudos to him for this excellent piece of work!  This script was used to make the really cool Ebola virus spread video found [here](https://www.youtube.com/watch?v=j4Ut4krp8GQ).
