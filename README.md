@@ -1860,6 +1860,8 @@ plt.show()
 ```
 
 ###### 9. Convert individual png images into a movie:
+The code below produces a movie that will work in VLC and Windows Media Explorer, but not Quicktime:
+
 ```
 %%bash
 
@@ -1867,6 +1869,18 @@ frames=/scicomp/home/evk3/Diagnostics/Nipah/GLM_2018/alignment_without_mojiang_c
 ffmpeg_path=/scicomp/home/evk3/setup/ffmpeg-4.1
 
 cd  $frames; $ffmpeg_path/ffmpeg -framerate 2 -start_number 0 -i ani_frame_%05d.png -pix_fmt yuv420p -b:a 64k -vf scale="2160:trunc(ow/a/2)*2" nipah_25Apr2019_animation.HD.264.mp4
+```
+
+This code produces a movie that will work in VLC, Windows Media Explorer and Quicktime.  For some reason, Windows Media Explorer requires one to start the movie 2x.
+
+```
+%%bash
+
+frames=/scicomp/home/evk3/Diagnostics/Nipah/GLM_2018/alignment_without_mojiang_cedar_bat/bang_geo_only/animate_tree_V2/
+ffmpeg_path=/scicomp/home/evk3/setup/ffmpeg-4.1
+
+cd  $frames; $ffmpeg_path/ffmpeg -framerate 3 -start_number 0 -i ./ani_frame_%05d.png -pix_fmt yuv420p -vf "crop=trunc(iw/2)*2:trunc(ih/2)*2" nipah_10Apr2020_animation.HD.264.mp4.mp4
+
 ```
 
 
