@@ -42,7 +42,7 @@ Please see Jason's [readme](https://github.com/jtladner/Scripts/tree/master/stra
 
 This script is from Jason Ladner.  Check out his github [page](https://github.com/jtladner/Scripts/tree/master/chimeric_reads) for original [script](https://github.com/jtladner/Scripts/blob/master/chimeric_reads/chimeric_reads_v3.6.2.py).
 
-## Genome Coverage Plots and SNP Plots
+## Genome Coverage Plots and Minor Variant Plots
 
 A question was raised during review of the manuscript as to whether the use of enrichment probes biased the enriched reads.  We directly tested this by sequencing a paired subset of our viral isolates using enrichment and non-enrichment based methods.
 
