@@ -50,11 +50,11 @@ A question was raised during review of the manuscript as to whether the use of e
 
 <b>Supplementary Figure X1:</b>  Read coverage and minor variant plots for paired Nipah virus isolates sequenced using enrichment-based and non-enrichment based NGS methods.  <b>A)</b> Read coverage plots for a subset of paired viral isolates sequenced using enrichment-based and non-enrichment based NGS methods.  Plots show mean coverage versus genome position (bp) and loess-smoothed coverage estimates (dark, solid line).  <b>B)</b> Minor variant frequency versus genome position.  Subplots on y- and x-axes indicate density of minor variant locations across the genome and minor variant frequencies. 
 
-![Supplementary_FigureX2](/Supplementary_FigureX2_V1_crop_flat?raw=true "Title")
+![Supplementary_FigureX2](/Minor_variants_reviewers_8_to_share?raw=true "Title")
 
 <b>Supplementary Figure X2:</b> Read coverage and minor variant plots for all new genomes sequenced using enrichment and non-enrichment based NGS methods, similar to Supplementary Figure X1.  <b>A)</b> Read coverage plots.  Plots show mean coverage versus genome position (bp) and loess-smoothed coverage estimates (dark, solid line).  <b>B)</b> Minor variant frequency versus genome position.  Subplots on y- and x-axes indicate density of minor variant locations across the genome and minor variant frequencies.   <b>C)</b> Minor frequency versus genome position.  Points are colored according to specimen number.  Left – minor variants for all new genomes.  Right – minor variants for all new genomes with variants for specimen 201206119 removed.
 
-Link to raw variant data found [here](/test).  Please note that genomes were aligned to maintain position consistency.  Position #1 corresponds to base #1 in JN808863.  At base 6558 there is a 0, 6, or 12 bp gap in the alignment.  All bases are re-aligned at base 6570.
+Link to raw variant data found [here](/Minor_variants_reviewers_8_to_share.xlsx).  Please note that genomes were aligned to maintain position consistency.  Position #1 corresponds to base #1 in JN808863.  At base 6558 there is a 0, 6, or 12 bp gap in the alignment.  All bases are re-aligned at base 6570.
 
 ## Visualizing Geographic Spread from a BEAST Continuous Diffusion Analysis
 
