@@ -46,11 +46,11 @@ This script is from Jason Ladner.  Check out his github [page](https://github.co
 
 A question was raised during review of the manuscript as to whether the use of enrichment probes biased the enriched reads.  We directly tested this by sequencing a paired subset of our viral isolates using enrichment and non-enrichment based methods.
 
-![Supplementary_FigureX1](/Supplementary_FigureX1_V1_crop_flat?raw=true "Title")
+![image](/Supplementary_FigureX1_V1_crop_flat?raw=true "Title")
 
 <b>Supplementary Figure X1:</b>  Read coverage and minor variant plots for paired Nipah virus isolates sequenced using enrichment-based and non-enrichment based NGS methods.  <b>A)</b> Read coverage plots for a subset of paired viral isolates sequenced using enrichment-based and non-enrichment based NGS methods.  Plots show mean coverage versus genome position (bp) and loess-smoothed coverage estimates (dark, solid line).  <b>B)</b> Minor variant frequency versus genome position.  Subplots on y- and x-axes indicate density of minor variant locations across the genome and minor variant frequencies. 
 
-![Supplementary_FigureX2](/Supplementary_FigureX2_V1_crop_flat.tif?raw=true "Title")
+![image](/Supplementary_FigureX2_V1_crop_flat.tif?raw=true "Title")
 
 <b>Supplementary Figure X2:</b> Read coverage and minor variant plots for all new genomes sequenced using enrichment and non-enrichment based NGS methods, similar to Supplementary Figure X1.  <b>A)</b> Read coverage plots.  Plots show mean coverage versus genome position (bp) and loess-smoothed coverage estimates (dark, solid line).  <b>B)</b> Minor variant frequency versus genome position.  Subplots on y- and x-axes indicate density of minor variant locations across the genome and minor variant frequencies.   <b>C)</b> Minor frequency versus genome position.  Points are colored according to specimen number.  Left – minor variants for all new genomes.  Right – minor variants for all new genomes with variants for specimen 201206119 removed.
 
